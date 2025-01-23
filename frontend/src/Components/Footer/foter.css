@@ -1,0 +1,52 @@
+footer {
+  background-color: #e0ecdc;
+  /* height: 220px; */
+  padding: 30px;
+  display: flex;
+  justify-content: center;align-items: center;
+  gap: 150px;
+}
+.otherpart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.head {
+  font-weight: 900;
+}
+.footerul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+}
+li{
+    width: 100%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  /* height: 100%; */
+}
+
+.emailpart input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+.emailpart button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.email{
+    gap: 30px;
+    display: flex;justify-content: center;align-items: center;
+}

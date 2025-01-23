@@ -2,6 +2,7 @@ import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
+import "./addpage.css"
 const URL = "http://localhost:3030/"
 
 const AddPage = () => {
@@ -20,7 +21,7 @@ const AddPage = () => {
         console.log(values);
       }}
     >
-      <Form>
+      <Form className='form'>
         <label htmlFor="name">Flower Name</label>
         <Field name="name" type="text" />
         <ErrorMessage name="name" />
@@ -33,7 +34,7 @@ const AddPage = () => {
         <Field name="img" type="text" />
         <ErrorMessage name="img" />
 
-        <button type="submit">Submit</button>
+        <button type="submit" className='submit'>Add</button>
       </Form>
     </Formik>
   );

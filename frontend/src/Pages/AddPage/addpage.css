@@ -1,0 +1,16 @@
+.form {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.submit{
+    background-color: rgb(67, 227, 67);
+    padding: 4px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}

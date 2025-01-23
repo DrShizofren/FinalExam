@@ -1,0 +1,41 @@
+.card {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+.cards {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.flowerpricingpage {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  background-image: url(/src/Assets/Images/BC.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.green{
+    color: #1B745E;
+}
+
+h1.green{
+    font-size: 64px;
+}

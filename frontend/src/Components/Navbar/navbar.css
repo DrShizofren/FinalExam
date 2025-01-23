@@ -13,7 +13,7 @@ nav {
   gap: 800px;
 }
 
-ul {
+.homeul {
   display: flex;
   justify-content: center;
   align-items: center;

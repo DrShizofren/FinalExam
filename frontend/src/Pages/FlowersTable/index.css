@@ -1,3 +1,15 @@
 table{
     border: 1px solid;
 }
+.table{
+    width: 50%;
+    margin: 180px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.table th{
+    text-align: left;
+}
+.headtable{
+    display: flex;justify-content: center;align-items: center;margin: 100px 0;
+}

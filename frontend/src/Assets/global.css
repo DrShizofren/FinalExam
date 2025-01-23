@@ -6,3 +6,10 @@
     list-style: none;
     text-decoration: none;
 }
+
+button:hover{
+    cursor: pointer;
+}
+.container{
+    max-width: 1800px;
+}
