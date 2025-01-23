@@ -1,0 +1,27 @@
+nav {
+  background-color: #1b745e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.navbar {
+  max-width: 2000px;
+  display: flex;
+  align-items: center;
+  gap: 800px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: gray;
+}

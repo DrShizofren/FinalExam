@@ -1,0 +1,11 @@
+img{
+    width: 100%;
+    overflow: hidden;
+    height: 60vh;
+    position: relative;
+}
+.overlaydiv{
+    color: #1B745E;
+    position: absolute;
+    top: 0;
+}
